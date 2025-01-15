@@ -1,0 +1,249 @@
+:root {
+    --primary-clr-500: hsl(243, 87%, 12%);
+    --primary-clr-100: hsl(238, 22%, 44%);
+    --accent-clr-100: hsl(224, 93%, 58%);
+    --accent-clr-200: hsl(170, 45%, 43%);
+    --neutral-clr-100: hsl(240, 75%, 98%);
+    --neutral-clr-200: hsl(0, 0%, 75%);
+    --ff-header: 'Raleway', sans-serif;
+    --ff-body: 'open sans', sans-serif;
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--ff-body);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 2rem;
+}
+
+/* navigation */
+
+.header {
+    padding: 10px;
+}
+
+.logo__dark {
+    width: 150px;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list li {
+    margin-left: 25px;
+}
+
+.main__header {
+    margin: 20px 0;
+}
+
+.email {
+    display: flex;
+    height: 30px;
+}
+
+.btn {
+    width: 9.375rem;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: var(--accent-clr-100);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--primary-clr-500);
+    transition: 200ms ease-in-out;
+}
+/* hero section-1 */
+
+h1 {
+    font-family: var(--ff-header);
+    font-size: 2rem;
+}
+
+.hero__paragraph {
+    margin: 10px 0 1rem;
+}
+
+
+.grid__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.illustration__1 {
+    width: 600px;
+}
+
+/* hero section-2 */
+
+.section__2 {
+    margin-top: 3rem;
+    background-color: var(--neutral-clr-100);
+}
+
+.grid__main_2 {
+    display: flex;
+    margin: 4rem 0;
+
+
+}
+
+.section__heading_2 {
+    font-family: var(--ff-header);
+    font-size: 2rem;
+    margin-bottom: 0.625rem;
+    position: relative;
+}
+
+.section__2 .container .grid__main_2 div p {
+    margin-top: 1rem;
+}
+
+.arrow__header {
+    color: var(--accent-clr-200);
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.arrow__header li {
+    width: max-content;
+    border-bottom: 1px solid var(--accent-clr-200);
+}
+
+.arrow__header a:hover {
+    color: var(--accent-clr-100);
+
+}
+
+.arrow {
+    position: absolute;
+    bottom: 4px;
+    left: 145px;
+}
+
+/* testimonial-card */
+
+.testimonial {
+    background-color: #fff;
+    padding: 0.95rem 2rem;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px var(--neutral-clr-200);
+}
+
+.author {
+    margin-top: 1rem;
+    display: flex;
+
+}
+
+.quotes {
+    width: 1rem;
+}
+
+.author__images {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.author__name {
+
+    font-weight: var(--fw-700);
+}
+
+.author__status {
+    margin-top: 1px;
+}
+
+.section__2 .testimonial .author p:last-child {
+    margin-top: 0px;
+}
+
+.section__2 .testimonial .author div {
+    margin-top: -15px;
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+.illustration__2 {
+    width: 600px;
+}
