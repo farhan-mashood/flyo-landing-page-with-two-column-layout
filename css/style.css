@@ -247,3 +247,13 @@ h1 {
 .illustration__2 {
     width: 600px;
 }
+
+.section__3 {
+    background-color: var(--primary-clr-100);
+    margin-top: -61px;
+}
+
+.grid__main_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
