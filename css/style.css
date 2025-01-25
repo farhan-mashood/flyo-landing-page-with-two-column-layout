@@ -88,7 +88,7 @@ body {
 }
 
 .logo__dark {
-    width: 150px;
+    width: 100px;
 
 }
 
@@ -113,6 +113,7 @@ body {
 .email {
     display: flex;
     height: 30px;
+    border: none;
 }
 
 .btn {
@@ -139,6 +140,9 @@ h1 {
 .hero__paragraph {
     margin: 10px 0 1rem;
 }
+.grid_1{
+    margin-top: 4rem;
+}
 
 
 .grid__main {
@@ -148,7 +152,7 @@ h1 {
 
 
 .illustration__1 {
-    width: 600px;
+    width: 100%;
 }
 
 /* hero section-2 */
@@ -156,6 +160,7 @@ h1 {
 .section__2 {
     margin-top: 3rem;
     background-color: var(--neutral-clr-100);
+    padding:  3rem 0;
 }
 
 .grid__main_2 {
@@ -245,15 +250,109 @@ h1 {
 }
 
 .illustration__2 {
-    width: 600px;
+    width: 100%;
+    margin-left: 1.5rem;
 }
+
+
+/* Hero section 3 */
 
 .section__3 {
     background-color: var(--primary-clr-100);
     margin-top: -61px;
+    padding: 2rem 0;
 }
 
 .grid__main_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.sign_up {
+    margin-left: 4rem;
+}
+
+.section__3 .grid__main_2 div h3 {
+    font-family: var(--ff-header);
+    font-size: 2rem;
+    margin-bottom: 0.625rem;
+    color: #fff;
+}
+
+.section__3 .grid__main_2 div p {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+#email_2 {
+    display: block;
+    width: 25rem;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.btn_2 {
+    padding: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--accent-clr-100);
+    cursor: pointer;
+}
+
+.btn_2:hover {
+    background-color: var(--accent-clr-200);
+    transition: 150ms ease-in-out;
+}
+
+
+/* footer */
+.footer {
+    padding: 1rem 0 0.5rem;
+    background-color: var(--primary-clr-500);
+    color: #fff;
+    font-size: 14px;
+    margin-top: -35px;
+}
+
+.logo_2 {
+    padding-top: 4rem;
+    width: 150px;
+    color: #fff;
+}
+
+.footer_holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.reach_out {
+   display: inline-flex;
+   gap: 1rem;
+}
+
+#reach_out {
+   margin-bottom: 0.7rem;
+   
+}
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer_holder div ul li {
+    line-height: 2;
+}
+
+.footer .footer_holder div ul li a {
+color: #fff;
+}
+
+.footer .footer_holder div ul li a:hover {
+    color: var(--accent-clr-100);
+    transition: 200ms ease-in-out;
+}
+
